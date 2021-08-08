@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: red;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+body {
+  color: blue;
+}
