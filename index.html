@@ -25,6 +25,39 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">🐼 CDN </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/"
+              title="Carol Portfolio"
+              >Home</a
+            >
+            <a class="nav-link" href="/about.html" title="about me">About</a>
+            <a class="nav-link" href="/#work" title="my work">Work</a>
+            <a class="nav-link" href="/#contact" title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <p>👋 Hello, I'm</p>
       <h1>Carolina de Nardi</h1>
@@ -33,91 +66,93 @@
         <a href="/#contact" class="btn btn-branding">Contact me</a>
       </div>
     </div>
-    <p class="text-center m-5">Featured My Projects</p>
+    <div id="work" class="">
+      <p class="text-center m-5">Featured My Projects</p>
 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/panda_weather.png"
-            class="img-fluid p-2 shadow rounded"
-            alt="Panda Weather applicativo"
-          />
-        </div>
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Weather app</h2>
-            <p class="mb-5 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <a
-              href="https://festive-feynman-3db378.netlify.app/"
-              class="btn btn-branding-outline"
-              target="blank"
-              title="Panda Weather applicativo"
-            >
-              Learn more
-            </a>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/panda_weather.png"
+              class="img-fluid p-2 shadow rounded"
+              alt="Panda Weather applicativo"
+            />
+          </div>
+          <div class="col">
+            <div class="project-desciption">
+              <h2 class="mb-5">Weather app</h2>
+              <p class="mb-5 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <a
+                href="https://festive-feynman-3db378.netlify.app/"
+                class="btn btn-branding-outline"
+                target="blank"
+                title="Panda Weather applicativo"
+              >
+                Learn more
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Coffee curiosities</h2>
-            <p class="mb-5 text-muted">
-              You know it would be impossible to start your day without a cup of
-              ☕, but how much do you really know about your favorite
-              caffeinated beverage?
-            </p>
+        <div class="row mb-5">
+          <div class="col">
+            <div class="project-desciption">
+              <h2 class="mb-5">Coffee curiosities</h2>
+              <p class="mb-5 text-muted">
+                You know it would be impossible to start your day without a cup
+                of ☕, but how much do you really know about your favorite
+                caffeinated beverage?
+              </p>
 
-            <a
-              href="https://www.shecodes.io/workshops/shecodes-online-workshop-61-0/projects/321376"
-              class="btn btn-branding-outline"
-              target="blank"
-              title="coffe curiosities website"
-              >Coffee curiosities</a
-            >
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-online-workshop-61-0/projects/321376"
+                class="btn btn-branding-outline"
+                target="blank"
+                title="coffe curiosities website"
+                >Coffee curiosities</a
+              >
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/Coffee_curiosities.png"
+              class="img-fluid p-2 shadow rounded"
+              alt="coffe curiosities website"
+            />
           </div>
         </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/Coffee_curiosities.png"
-            class="img-fluid p-2 shadow rounded"
-            alt="coffe curiosities website"
-          />
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/coffee_website.png"
-            class="img-fluid"
-            alt="coffe website"
-          />
-        </div>
-        <div class="col">
-          <div class="project-desciption">
-            <h2 class="mb-5">Coffee website</h2>
-            <p class="mb-5 text-muted">
-              Coffee is a brewed drink prepared from roasted coffee beans, the
-              seeds of berries from certain Coffea species. All fruit must be
-              further processed from a raw material—the fruit and seed—into a
-              stable, raw product; un-roasted, green coffee.
-            </p>
-            <a
-              href="https://brave-brattain-15c2ab.netlify.app/"
-              class="btn btn-branding-outline"
-              target="blank"
-              title="coffe website"
-            >
-              Learn more
-            </a>
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img
+              src="images/coffee_website.png"
+              class="img-fluid"
+              alt="coffe website"
+            />
+          </div>
+          <div class="col">
+            <div class="project-desciption">
+              <h2 class="mb-5">Coffee website</h2>
+              <p class="mb-5 text-muted">
+                Coffee is a brewed drink prepared from roasted coffee beans, the
+                seeds of berries from certain Coffea species. All fruit must be
+                further processed from a raw material—the fruit and seed—into a
+                stable, raw product; un-roasted, green coffee.
+              </p>
+              <a
+                href="https://brave-brattain-15c2ab.netlify.app/"
+                class="btn btn-branding-outline"
+                target="blank"
+                title="coffe website"
+              >
+                Learn more
+              </a>
+            </div>
           </div>
         </div>
       </div>
