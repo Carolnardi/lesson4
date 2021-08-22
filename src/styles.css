@@ -113,15 +113,11 @@ p {
   padding: 160px 20px;
 }
 
-.nav a {
-  text-decoration: none;
-
-  transition: all 100ms ease-in-out;
+.nav a:hover {
+  color: var(--branding-color) !important;
 }
-
-.nav a:hover,
-.nav li.active a {
-  color: var(--branding-color);
+.navbar-brand {
+  color: var(--branding-color) !important;
 }
 
 .btn-branding {
