@@ -75,7 +75,7 @@ p {
 .about-section-content {
   margin: 30px;
 }
-.contact-section-content a {
+.contact-section-content .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   padding: 10px 14px;
@@ -83,7 +83,7 @@ p {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-.contact-section-content a:hover {
+.contact-section-content .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
