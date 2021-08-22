@@ -75,7 +75,7 @@ p {
 .about-section-content {
   margin: 30px;
 }
-.about-section-content a {
+.contact-section-content a {
   margin: 0 20px;
   color: var(--branding-color);
   padding: 10px 14px;
@@ -83,17 +83,17 @@ p {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-.about-section-content a:hover {
+.contact-section-content a:hover {
   color: white;
   background-color: var(--branding-color);
 }
 
-.about-section-content .email-link {
+.contact-section-content .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
 }
-.about-section-content .email-link:hover {
+.contact-section-content .email-link:hover {
   color: var(--branding-color);
 }
 
