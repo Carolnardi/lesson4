@@ -139,6 +139,9 @@ p {
 .navbar-brand {
   color: var(--branding-color) !important;
 }
+.nav-link .active {
+  color: var(--branding-color) !important;
+}
 
 .btn-branding {
   background: var(--branding-color);
