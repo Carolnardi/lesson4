@@ -112,12 +112,18 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.active {
-  color: var(--branding-color) !important;
+
+.nav a {
+  text-decoration: none;
+
+  transition: all 100ms ease-in-out;
 }
-.navbar-brand {
-  color: var(--branding-color) !important;
+
+.nav a:hover,
+.nav li.active a {
+  color: var(--branding-color);
 }
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
