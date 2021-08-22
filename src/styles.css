@@ -79,7 +79,7 @@ p {
   margin: 0 20px;
   color: var(--branding-color);
   padding: 10px 14px;
-  font-size: 18px;
+  font-size: 30px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
@@ -88,12 +88,13 @@ p {
   background-color: var(--branding-color);
 }
 
-.contact-section-content .email-link {
+.contact-section-content .email-link a {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  margin-bottom: 30px;
 }
-.contact-section-content .email-link:hover {
+.contact-section-content .email-link a:hover {
   color: var(--branding-color);
 }
 
